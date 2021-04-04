@@ -43,4 +43,4 @@ def dashboard():
 def logout():
     session.pop('user',None)
     return redirect('/')
-app.run(debug=True,port="0.0.0.0")
+app.run(debug=True)
