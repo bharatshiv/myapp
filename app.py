@@ -13,6 +13,7 @@ mysql=MySQL()
 mysql.init_app(app)
 
 @app.route('/')
+@app.route('/index')
 def home():
     return render_template('login.html')
 
