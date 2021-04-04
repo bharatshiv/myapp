@@ -1,1 +1,1 @@
-web: gunicorn app:app --preload -b 0.0.0.0:5000
+web: gunicorn app:app --preload -b 50.19.85.132:5000
